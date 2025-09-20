@@ -2,25 +2,6 @@
 
 A React-based medical education chatbot with real-time typing animations and smooth scrolling.
 
-## Setup
-
-```bash
-npm install
-npm run dev
-```
-
-## Build
-
-```bash
-npm run build
-npm run preview
-```
-
-## Demo Credentials
-
-- Username: `demo`
-- Password: `demo123`
-
 ## Features
 
 ### Chat Interface
@@ -81,7 +62,7 @@ src/
 - **useCallback Hooks** - Memoized event handlers throughout the app
 
 ### State & Memory Management
-- **useRef for Values** - Non-rendering values stored in refs to prevent re-renders
+- **useRef for Values** - Non-updated values stored in refs to prevent re-renders
 - **Draft Persistence** - Message drafts saved per chat, restored on switch
 - **Cleanup on Unmount** - All animations, timers, and listeners properly cleaned up
 - **Controlled Re-renders** - Strategic state updates minimize component refreshes
@@ -97,3 +78,23 @@ src/
 - **Keyboard Navigation** - Full keyboard support with proper focus management
 - **Session Persistence** - localStorage for auth tokens and session data
 - **Cross-tab Activity** - StorageEvent dispatching for multi-tab synchronization
+
+  
+## Setup
+
+```bash
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+npm run preview
+```
+
+## Demo Credentials
+
+- Username: `demo`
+- Password: `demo123`
