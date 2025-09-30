@@ -2,6 +2,8 @@
 
 A React-based medical education chatbot with real-time typing animations and smooth scrolling.
 
+Live site: https://neurealities-takehome-e36ca9201b50.herokuapp.com/
+
 ## Features
 
 ### Chat Interface
